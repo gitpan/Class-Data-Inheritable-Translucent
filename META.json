@@ -24,7 +24,7 @@
          "description" : "POD testing",
          "prereqs" : {
             "test" : {
-               "recommends" : {
+               "requires" : {
                   "Test::Pod" : "1.14",
                   "Test::Pod::Coverage" : "1.04"
                }
@@ -35,7 +35,7 @@
          "description" : "Naming subroutines in caller() messages etc.",
          "prereqs" : {
             "runtime" : {
-               "recommends" : {
+               "requires" : {
                   "Sub::Name" : "0"
                }
             }
@@ -81,5 +81,5 @@
          "url" : "https://github.com/steve-m-hay/Class-Data-Inheritable-Translucent.git"
       }
    },
-   "version" : "1.03"
+   "version" : "1.04"
 }

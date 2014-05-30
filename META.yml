@@ -31,7 +31,7 @@ optional_features:
     description: 'POD testing'
   subname:
     description: 'Naming subroutines in caller() messages etc.'
-    recommends:
+    requires:
       Sub::Name: '0'
 requires:
   perl: '5.008001'
@@ -39,4 +39,4 @@ requires:
   warnings: '0'
 resources:
   repository: https://github.com/steve-m-hay/Class-Data-Inheritable-Translucent.git
-version: '1.03'
+version: '1.04'
